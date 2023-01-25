@@ -1,0 +1,31 @@
+header{
+    background-color: #787673;
+    text-align: center;
+    padding-inline: 2vmin;
+}
+
+
+nav li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding-inline: 2vmin;
+}
+
+body{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding-inline: 2vmin;
+}
+.photoTop {
+    max-width: 50%;
+}
+
+img{
+    padding-inline: 1vmin;
+    width: 24.99999%;
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
