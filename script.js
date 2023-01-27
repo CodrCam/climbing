@@ -13,6 +13,7 @@ else {
 
 document.write("My Name is Cam I'm stoked you showed up today " + user + ". ")
 }
+
 //Age question
 function UserAge() {
     let userAge = prompt("Your Age:", " ");
@@ -22,22 +23,23 @@ function UserAge() {
     else if (userAge < 16) {
         document.write(" I'm sorry you're " + (16-userAge) + " years too young to climb");
     } 
-    else if(userAge != Number) {
+    else if (userAge != Number) {
         prompt(" I'm not sure that's an age you gave me. ");
     }
 }
-// Num Guess function
-
-let userNum =prompt("Pick a Number from 1-100: ", " ") 
-function NumGuess(){  
-i = 0
-    while (i < userNum) {
-        i++;
+// Num Guess function that asks them to guess a number.
+function NumGuess(){
+    do{
+        userGuess =prompt("Guess a Number from 1-3: ", " ")
+    }
+    while (userGuess != 3) {
+    
 }
-    document.write(" Your number was ", i);
+    document.write(" The Number was 3!");
 }
 
 
 UserGreeting();
 UserAge();
 NumGuess();
+console.log(userGuess)
