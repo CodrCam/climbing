@@ -5,7 +5,7 @@ let user = prompt("Your name:", ",");
 function UserGreeting() {
 document.write("Hello " + user + " " );
 if (confirm("Confirm you're have a good day?")) {
-    document.write(",rightchous let's get on the ROCK!" + " ");
+    document.write(", rightchous let's get on the ROCK!" + " ");
 } 
 else {
     document.write(" have a better time climbing. ");
