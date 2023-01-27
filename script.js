@@ -23,7 +23,7 @@ function UserAge() {
         document.write(" I'm sorry you're " + (16-userAge) + " years too young to climb");
     } 
     else if(userAge != Number) {
-        document.write(" I'm not sure that's an age you gave me. ");
+        prompt(" I'm not sure that's an age you gave me. ");
     }
 }
 // Num Guess function
